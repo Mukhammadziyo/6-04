@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
-import reclama from "./public/reklama.webp";
 
 export default function NavLikns() {
   return (
     <div className="mx-auto max-w-[1319px] w-full px-[50px]">
-      <img src={reclama} alt="" />
+      <img
+        src="https://avatars.mds.yandex.net/get-adfox-content/2765366/250129_adfox_1749280_13454573.89fa4f894d2780d74204b0bd93d5869d.jpg/optimize.webp"
+        alt="PLace for Add"
+      />
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -49,7 +51,10 @@ export default function NavLikns() {
           </div>
           <NavLink to={"/"}>
             <a className="btn btn-ghost text">
-              <img src="/public/kun.uz logo.svg" alt="" />
+              <img
+                src="https://kun.uz/assets/9daff39f/img/icons/logo-light.svg"
+                alt="logo"
+              />
             </a>
           </NavLink>
         </div>
