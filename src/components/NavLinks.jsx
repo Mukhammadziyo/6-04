@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import reclama from "./public/reklama.webp";
 
 export default function NavLikns() {
   return (
     <div className="mx-auto max-w-[1319px] w-full px-[50px]">
-      <img src="/public/reklama.webp" alt="" />
+      <img src={reclama} alt="" />
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
