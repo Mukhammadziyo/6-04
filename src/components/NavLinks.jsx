@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function NavLikns() {
   return (
     <div className="mx-auto max-w-[1319px] w-full px-[50px]">
-      <img src="../public/reklama.webp" alt="" />
+      <img src="./public/reklama.webp" alt="" />
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -48,7 +48,7 @@ export default function NavLikns() {
           </div>
           <NavLink to={"/"}>
             <a className="btn btn-ghost text">
-              <img src="../public/kun.uz logo.svg" alt="" />
+              <img src="./public/kun.uz logo.svg" alt="" />
             </a>
           </NavLink>
         </div>
