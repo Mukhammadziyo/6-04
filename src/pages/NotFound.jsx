@@ -5,7 +5,7 @@ export default function NotFound() {
     <div>
       <img
         className="w-full h-screen"
-        src="../public/404 not found.jpg"
+        src="./public/404 not found.jpg"
         alt=""
       />
       <NavLink
